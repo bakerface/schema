@@ -1,0 +1,36 @@
+{
+  "name": "@bakerface/schema",
+  "version": "0.0.0",
+  "description": "Schemas and validation in TypeScript",
+  "author": "Chris Baker <mail.chris.baker@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "ts",
+    "typescript",
+    "schema",
+    "input",
+    "validation",
+    "validate",
+    "parse"
+  ],
+  "eslintConfig": {
+    "extends": "./node_modules/@bakerface/typescript-starter/eslint"
+  },
+  "nyc": {
+    "extends": "@bakerface/typescript-starter/nyc"
+  },
+  "scripts": {
+    "prepare": "typescript-starter build src/index.ts",
+    "lint": "typescript-starter lint .",
+    "test": "typescript-starter test 'src/**/*.test.*'"
+  },
+  "devDependencies": {
+    "@bakerface/typescript-starter": "^0.1.3"
+  }
+}
