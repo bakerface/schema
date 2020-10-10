@@ -1,6 +1,6 @@
 {
   "name": "@bakerface/schema",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Schemas and validation in TypeScript",
   "author": "Chris Baker <mail.chris.baker@gmail.com>",
   "license": "MIT",
